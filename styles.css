@@ -1,0 +1,67 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(34, 40, 49);
+    color: rgb(238, 238, 238);
+}
+
+/* Cabeçalho */
+.header {
+    background-color: rgb(57, 62, 70);
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Conteúdo Principal */
+.main-content {
+    padding: 20px;
+}
+
+/* Seções */
+.introduction, .fish-shell, .oh-my-posh, .installation, .customization {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(57, 62, 70);
+    border-radius: 8px;
+}
+
+/* Títulos das Seções */
+h2 {
+    color: rgb(0, 173, 181);
+}
+
+/* Código */
+pre {
+    background-color: rgb(34, 40, 49);
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(57, 62, 70);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .title {
+        font-size: 2em;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+}
