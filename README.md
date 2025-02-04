@@ -12,6 +12,12 @@ Ao concluir este tutorial, seu terminal Linux será funcional e visualmente inte
 
 ## ⚙️ Instalação
 
+
+```bash
+  git clone https://github.com/vito-ysl/Personalize-Seu-Terminal.git
+```
+
+
 PPara começar a personalizar seu terminal e deixá-lo incrível, aperte no link abaixo e siga nosso tutorial passo a passo! 👇
 
 https://vito-ysl.github.io/Personalize-Seu-Terminal/
