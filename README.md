@@ -10,3 +10,8 @@ Ao concluir este tutorial, seu terminal Linux será funcional e visualmente inte
 ## 📸 Screenshots
 ![Aqui está uma frase representando uma captura de tela de um terminal personalizado no Linux:](https://iili.io/2t8obFj.png)
 
+## ⚙️ Instalação
+
+PPara começar a personalizar seu terminal e deixá-lo incrível, aperte no link abaixo e siga nosso tutorial passo a passo! 👇
+
+https://vito-ysl.github.io/Personalize-Seu-Terminal/
