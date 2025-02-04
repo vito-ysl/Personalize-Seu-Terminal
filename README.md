@@ -18,6 +18,6 @@ Ao concluir este tutorial, seu terminal Linux será funcional e visualmente inte
 ```
 
 
-PPara começar a personalizar seu terminal e deixá-lo incrível, aperte no link abaixo e siga nosso tutorial passo a passo! 👇
+Para começar a personalizar seu terminal e deixá-lo incrível, aperte no link abaixo e siga nosso tutorial passo a passo! 👇
 
 https://vito-ysl.github.io/Personalize-Seu-Terminal/
