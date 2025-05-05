@@ -65,3 +65,53 @@ pre {
         padding: 10px;
     }
 }
+
+.command-container {
+    position: relative;
+    padding: 8px 0;
+    margin: 15px 0;
+    background: rgb(34, 40, 49);
+    border-radius: 4px;
+}
+
+.command-container pre {
+    margin: 0;
+    padding: 15px;
+    padding-right: 70px; /* Espaço para o botão */
+    background: rgb(34, 40, 49);
+    border-radius: 4px;
+    position: relative;
+    border-bottom: 2px solid rgb(0, 173, 181);
+    margin-bottom: 10px;
+}
+
+.copy-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 8px;
+    background: rgb(0, 173, 181);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.3s ease;
+    z-index: 10; /* Garante que o botão fique sobre o texto */
+}
+
+.copy-button:hover {
+    background: rgb(0, 153, 161);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.copy-button:active {
+    transform: translateY(0);
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+}

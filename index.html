@@ -27,29 +27,62 @@
         <section>
             <h2>Instalação do Fish Shell</h2>
             <h3>Ubuntu/Debian/Linux Mint</h3>
-            <pre><code>sudo apt install fish -y</code></pre>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>sudo apt install fish -y</code></pre>
+            </div>
             <h3>Fedora</h3>
-            <pre><code>sudo dnf install fish -y</code></pre>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>sudo dnf install fish -y</code></pre>
+            </div>
             <h3>Arch Linux / Manjaro Linux</h3>
-            <pre><code>chsh -s /usr/bin/fish</code></pre>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>chsh -s /usr/bin/fish</code></pre>
+            </div>
         </section>
         <section>
             <h2>Executando o Fish Shell</h2>
             <h3>Instalando Oh My Posh</h3>
-            <pre><code>sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh</code></pre>
-            <pre><code>sudo chmod +x /usr/local/bin/oh-my-posh</code></pre>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh</code></pre>
+            </div>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>sudo chmod +x /usr/local/bin/oh-my-posh</code></pre>
+            </div>
         </section>
         <section>
             <h2>Baixando e Instalando Fontes</h2>
-            <pre><code>mkdir -p $HOME/.local/share/fonts</code></pre>
-            <pre><code>wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip -O $HOME/Downloads/firacode.zip</code></pre>
-            <pre><code>unzip $HOME/Downloads/firacode.zip -d $HOME/.local/share/fonts</code></pre>
-            <pre><code>fc-cache -f -v</code></pre>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>mkdir -p $HOME/.local/share/fonts</code></pre>
+            </div>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip -O $HOME/Downloads/firacode.zip</code></pre>
+            </div>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>unzip $HOME/Downloads/firacode.zip -d $HOME/.local/share/fonts</code></pre>
+            </div>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>fc-cache -f -v</code></pre>
+            </div>
         </section>
         <section>
             <h2>Adicionando Tema OhMyPosh ao Config do Fish</h2>
-            <pre><code>gnome-text-editor $HOME/.config/fish/config.fish</code></pre>
-            <pre><code>oh-my-posh init fish --config $HOME/.poshthemes/montys.omp.json | source</code></pre>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>gnome-text-editor $HOME/.config/fish/config.fish</code></pre>
+            </div>
+            <div class="command-container">
+                <button class="copy-button">Copiar</button>
+                <pre><code>oh-my-posh init fish --config $HOME/.poshthemes/montys.omp.json | source</code></pre>
+            </div>
         </section>
     </main>
     <footer>
